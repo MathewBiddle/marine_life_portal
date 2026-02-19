@@ -47,6 +47,8 @@ export default function Home({
           setOptions={setOptions}
           groups={groups}
           orgs={orgs}
+	  facets={orgs}
+	  facets={groups}
         />
         <div
           className="bg-white p-8 mx-auto my-4 rounded-lg"
